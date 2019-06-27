@@ -10,6 +10,13 @@
   zwave:
     usb_path: /dev/ttyAMA0
   ```
+## X-forwarding to windows
+Do: 
+1. `sudo cp /home/pi/.Xauthority /root/.Xauthority`
+2. Enable X-frwarding in Putty (config->connection->ssh->x11
+3. Start Xming on windows
+4. Connect and start gui app
+
 ## USB drive filesystem
 
 - Do: https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md
